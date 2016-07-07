@@ -1,7 +1,7 @@
 ---
-layout: blog
-title: Temporary Home
-subtitle: While the new site is under construction.
+layout: page
+title: Change Logs
+subtitle: For Beyond Reality Mod Pack
 ---
 
 # Under Construction
