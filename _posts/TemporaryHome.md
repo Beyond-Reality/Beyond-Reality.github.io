@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Temporary Home
-subtitle: Until the new site is ready.
+subtitle: While the new site is under construction.
 ---
 
 # Under Construction
