@@ -23,7 +23,7 @@ description: Home to BeyondReality minecraft mod packs
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "About Us"
+  About Us: "About Us"
   Resources:
     - Charts: "http://Dominance.github.io/Charts/"
     - Support: "http://Dominance.github.io/Support/"
