@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Temporary Home
+title: Temporary Home1
 subtitle: While the new site is under construction.
 ---
 
