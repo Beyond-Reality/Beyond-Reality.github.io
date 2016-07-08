@@ -1,5 +1,5 @@
 ---
-layout: brchangelogs
+layout: page
 title: Version 1.1.1
 ---
 
