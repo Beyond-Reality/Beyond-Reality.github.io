@@ -1,7 +1,7 @@
 ---
+layout: page
 title: ChangeLog
-subtitle: While the new site is under construction.
-collections:
+collections: brchangelogs
 ---
 
 # Under Construction
