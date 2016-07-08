@@ -5,7 +5,9 @@ subtitle: Beyond Reality will Merge with Resonant Rise & Gideon
 ---
 
 ## While our packs may have been different in style, We have always shared the same goal. 
-To bring high quality packs to the AT Launcher. In which we will continue to do so together! In the future our website will be forwarded to a new section on http://www.resonant-rise.com/ in which all of Beyond Reality News will be posted and discussed. Beyond Reality will not cease to exist but will fall under the Resonant rise name/orgnaization and will hereby be known as ResonantRise: Beyond Reality / Divergence.
+To bring high quality packs to the AT Launcher. In which we will continue to do so together! In the future our website will be forwarded to a new section on -[Their Site](http://www.resonant-rise.com/) in which all of Beyond Reality News will be posted and discussed. Beyond Reality will not cease to exist but will fall under the Resonant rise name/orgnaization and will hereby be known as ResonantRise: Beyond Reality / Divergence.
+
+### From the Resonant Rise Team.
 
 > Today we are here to bring you news on an exciting development and opportunity for the pack team and in general for the community at large. Today we are excited to announce that the Resonant Rise family is expanding its arms to two new partners we’ll be working closely with under the Resonant Rise Name.
  I want to start off by saying that with the merger all parties have agreed to work closely together to produce high-quality packs and to help further the growth of our collective communities, while still keeping our own independence as pack teams. Meaning that we will work together to help each other produce high quality packs but each team will still has their own creative freedom, free from any outside pressures or interferences. This is so Resonant Rise can still produce their own brand of high-quality kitchen-sink packs as usual while Beyond Reality (more info below) can continue to produce their brand of high quality intricate mod packs.
