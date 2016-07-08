@@ -33,6 +33,16 @@ navbar-links:
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/brlogo.png"
 
+# --- Collections --- #
+
+  collections:
+	brchangelogs:
+    output: true
+    permalink: /brchangelogs/:path/
+	divchangelogs:
+    output: true
+    permalink: /divchangelogs/:path/
+
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
@@ -91,7 +101,18 @@ defaults:
     values:
       layout: "page"
       show-avatar: true
-
+  -
+	scope:
+      path: ""
+      type: brchangelogs
+    values:
+      layout: page
+  -
+	scope:
+      path: ""
+      type: divchangelogs
+    values:
+      layout: page
 # Exclude these files from production site
 exclude:
   - Gemfile
