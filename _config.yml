@@ -38,10 +38,8 @@ avatar: "/img/brlogo.png"
   collections:
 	brchangelogs:
     output: true
-    permalink: /brchangelogs/:path/
 	divchangelogs:
     output: true
-    permalink: /divchangelogs/:path/
 
 # --- Footer options --- #
 
