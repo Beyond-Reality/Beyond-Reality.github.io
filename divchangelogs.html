@@ -1,0 +1,9 @@
+---
+layout: page
+title: Divergence Change Logs
+---
+{% for divchangelogs in site.brchangelogs %}
+	<div class="brchangelogs">
+		<h2><a href="{{ brchangelogs.url }}">{{ divchangelogs.title }}</a></h2>
+	</div>
+{% endfor %}
