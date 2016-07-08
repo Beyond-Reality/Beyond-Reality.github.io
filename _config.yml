@@ -57,10 +57,12 @@ url-pretty: "BeyondRealityGaming"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Collections --- #
 
 collections:
+ 
  brchangelogs:
-	output: true
+  output: true
+ 
  divchangelogs:
-	output: true
+  output: true
 
 # --- Misc --- #
 
