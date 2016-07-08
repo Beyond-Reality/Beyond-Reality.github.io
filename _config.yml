@@ -35,11 +35,12 @@ avatar: "/img/brlogo.png"
 
 # --- Collections --- #
 
-  collections:
-	brchangelogs:
-    output: true
-	divchangelogs:
-    output: true
+collections:
+  brchangelogs:
+  output: true
+  
+  divchangelogs:
+  output: true
 
 # --- Footer options --- #
 
@@ -100,13 +101,13 @@ defaults:
       layout: "page"
       show-avatar: true
   -
-	scope:
+    scope:
       path: ""
       type: brchangelogs
     values:
       layout: page
   -
-	scope:
+    scope:
       path: ""
       type: divchangelogs
     values:
