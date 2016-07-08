@@ -2,6 +2,7 @@
 layout: blog
 title: Temporary Home
 subtitle: While the new site is under construction.
+catagory: home
 ---
 
 # Under Construction
