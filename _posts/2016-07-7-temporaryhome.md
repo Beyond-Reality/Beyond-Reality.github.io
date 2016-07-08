@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: Temporary Home
 subtitle: While the new site is under construction.
 ---
