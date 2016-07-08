@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: brchangelogs
 title: ChangeLog
 collections: brchangelogs
 ---
