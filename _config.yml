@@ -25,8 +25,8 @@ description: Home to BeyondReality minecraft mod packs
 navbar-links:
   About Us: "About Us"
   Resources:
-    - Charts: "http://Dominance.github.io/Charts/"
-    - Support: "http://Dominance.github.io/Support/"
+    - BR-ChangeLogs: "http://Dominance.github.io/brchangelogs/"
+    - Div-ChangeLogs: "http://Dominance.github.io/divchangelogs/"
     - Info: "http://Dominance.github.io/Info/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
