@@ -5,9 +5,9 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  color: #FFF;
+  color: #404040;
   position: relative;
-  background: ##5A5A5A;
+  background: #FFF;
 }
 p {
   line-height: 1.5;
@@ -15,7 +15,7 @@ p {
 }
 p a {
   /* text-decoration: underline */
-  color: #48A8F9;
+  color: #008AFF;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -97,7 +97,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #619BBF;
+  background: #62A4D1;
   border-bottom: 1px solid #EAEAEA;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
