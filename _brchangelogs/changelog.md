@@ -1,6 +1,6 @@
 ---
 layout: brchangelogs
-title: IM HERE BITCHES
+title: Version 1.1.1
 ---
 
 # Under Construction
