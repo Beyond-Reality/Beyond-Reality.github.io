@@ -102,6 +102,18 @@ defaults:
     values:
       layout: "page"
       show-avatar: true
+  -
+    scope:
+      path: ""
+      type: brchangelogs
+    values:
+      layout: brchangelogs
+  -
+    scope:
+      path: ""
+      type: divchangelogs
+    values:
+      layout: divchangelogs
 # Exclude these files from production site
 exclude:
   - Gemfile
