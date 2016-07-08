@@ -1,7 +1,6 @@
 ---
 layout: brchangelogs
 title: ChangeLog
-collections: brchangelogs
 ---
 
 # Under Construction
