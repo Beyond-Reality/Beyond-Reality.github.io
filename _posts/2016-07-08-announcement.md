@@ -6,7 +6,9 @@ subtitle: Beyond Reality will Merge with Resonant Rise & Gideon
 
 ## While our packs may have been different in style, We have always shared the same goal. 
 To bring high quality packs to the AT Launcher. In which we will continue to do so together! In the future our website will be forwarded to a new section on -[Their Site](http://www.resonant-rise.com/) in which all of Beyond Reality News will be posted and discussed. Beyond Reality will not cease to exist but will fall under the Resonant rise orgnaization and will hereby be known as. 
+
 #### ResonantRise:Beyond Reality 
+
 #### ResonantRise:Divergence.
 
 ### From the Resonant Rise Team.
