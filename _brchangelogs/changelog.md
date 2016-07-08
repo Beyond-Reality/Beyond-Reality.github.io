@@ -1,6 +1,6 @@
 ---
 layout: brchangelogs
-title: ChangeLog
+title: IM HERE BITCHES
 ---
 
 # Under Construction
