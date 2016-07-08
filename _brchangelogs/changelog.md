@@ -1,5 +1,5 @@
 ---
-layout: brchangelogs
+layout: page
 title: IM HERE BITCHES
 ---
 
