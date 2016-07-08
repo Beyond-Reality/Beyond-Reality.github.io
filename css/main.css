@@ -136,7 +136,7 @@ img {
 
 .navbar-custom .avatar-container {
   opacity: 1;
-  position: center;
+  position: relative;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
