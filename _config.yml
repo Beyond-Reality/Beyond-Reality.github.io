@@ -25,7 +25,7 @@ description: A virtual proof that name is awesome!
 navbar-links:
   Home: https://beyond-reality.github.io/
   Resources:
-    - BR-ChangeLogs: "http://beyond-reality.github.io/brchangelogs"
+    - BR-ChangeLogs: "/brchangelogs"
     - Div-ChangeLogs: "http://beyond-reality.github.io/divchangelogs/"
     - Charts: "http://beyond-reality.github.io/charts/"
 
