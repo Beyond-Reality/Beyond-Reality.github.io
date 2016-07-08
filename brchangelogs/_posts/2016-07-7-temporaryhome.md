@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: Temporary Home
+layout: post
+title: ChangeLog
 subtitle: While the new site is under construction.
 catagory: brlogs
 ---
