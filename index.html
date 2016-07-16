@@ -9,137 +9,83 @@ bigimg:
 - "/img/beyondreality.png"
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <div id="wrapper">
-
-        <!-- Sidebar -->
-<div id="sidebar-wrapper">
- <ul class="sidebar-nav">
- 
-	<li class="sidebar-brand">
-		<h4>Our Partners</h4>
-        <a href="https://nodecraft.com/r/beyondreality">
-		<img src="{{ site.baseurl }}/img/community-partner.png" style="width:166px;height:47px;border:0;">
-        </a>
-    </li>
-	<li>
-	 <script type="text/javascript" src="http://discord.deliriousdrunkards.com/discord.min.js"></script>
-	 <script type="text/javascript">
-		discordWidget.init({
-		serverId: '76745454464806912',
-		title: 'Beyond Reality',
-		join: true,
-		alphabetical: false,
-		theme: 'light',
-		hideChannels: ['Channel Name 1', 'Channel Name 2'],
-		showAllUsers: true,
-		allUsersDefaultState: true,
-		showNick: false
-		});
-		discordWidget.render();
-	 </script>
-
-	 <div class="discord-widget"></div>
-	</li>
-	<li>
-	<p>
-		<a class="twitter-timeline" 
-		data-dnt="true" data-width="1000" data-height="300"
-		href="https://twitter.com/Dominance28" 
-		data-widget-id="647819704925581312"
-		data-chrome="nofooter noborders transparent" data-tweet-limit="2">I am tweeting (@Dominance28)</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	</p>
-	</li>
- </ul>
-</div>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-<div id="page-content-wrapper">
- <div class="container-fluid">
-  <div class="row">
-   <div class="col-lg-12">
-    <div class="posts-list">
-     {% for post in paginator.posts %}
-     <article class="post-preview">
-     <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-     </a>
-
-    <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-
-    <div class="post-entry">
-      {{ post.content | strip_html | xml_escape | truncatewords: 50 }}
-	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
-    </div>
-
-   </article>
-  {% endfor %}
-</div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %} 
-
-                    </div>
-                </div>
-            </div>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span2">
+          <!--NodeCraft-->
+		  <a href="https://nodecraft.com/r/beyondreality">
+          <img src="{{ site.baseurl }}/img/community-partner.png" style="width:166px;height:47px;border:0;">
+          </a> 
+          <!-- Discord -->
+          <script type="text/javascript" src="http://discord.deliriousdrunkards.com/discord.min.js"></script>
+          <script type="text/javascript">
+			discordWidget.init({
+			  serverId: '76745454464806912',
+			  title: 'Beyond Reality',
+			  join: true,
+			  alphabetical: false,
+			  theme: 'light',
+			  hideChannels: ['Channel Name 1', 'Channel Name 2'],
+			  showAllUsers: true,
+			  allUsersDefaultState: true,
+			  showNick: false
+			});
+			discordWidget.render();
+		   </script>
+           <div class="discord-widget"></div>
+		   <!-- Twitter -->
+           <p>
+			<a class="twitter-timeline" 
+			data-dnt="true" data-width="1000" data-height="300"
+			href="https://twitter.com/Dominance28" 
+			data-widget-id="647819704925581312"
+			data-chrome="nofooter noborders transparent" data-tweet-limit="2">I am tweeting (@Dominance28)</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+           </p>
         </div>
-        <!-- /#page-content-wrapper -->
+        <div class="span10">
+          <!--Body content-->
+		<div class="posts-list">
+           {% for post in paginator.posts %}
+          <article class="post-preview">
+           <a href="{{ post.url | prepend: site.baseurl }}">
+	       <h2 class="post-title">{{ post.title }}</h2>
 
+	       {% if post.subtitle %}
+	       <h3 class="post-subtitle">
+	       {{ post.subtitle }}
+	       </h3>
+	       {% endif %}
+           </a>
+
+          <p class="post-meta">
+          Posted on {{ post.date | date: "%B %-d, %Y" }}
+          </p>
+
+          <div class="post-entry">
+          {{ post.content | strip_html | xml_escape | truncatewords: 50 }}
+	      <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+          </div>
+
+          </article>
+          {% endfor %}
+        </div>
+
+         {% if paginator.total_pages > 1 %}
+         <ul class="pager main-pager">
+         {% if paginator.previous_page %}
+         <li class="previous">
+         <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+         </li>
+         {% endif %}
+         {% if paginator.next_page %}
+         <li class="next">
+         <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+         </li>
+         {% endif %}
+         </ul>
+         {% endif %} 
+
+        </div>
     </div>
-    <!-- /#wrapper -->
-
-	<!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-	
-    <!-- jQuery -->
-    <script src="js/jquery-1.11.2.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-</body>
+</div>
