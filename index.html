@@ -9,7 +9,9 @@ bigimg:
 - "/img/beyondreality.png"
 ---
 
-<div class="posts-list">
+<div class="row">
+	<div class="medium-8 columns t30">
+		<div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -49,3 +51,47 @@ bigimg:
   {% endif %}
 </ul>
 {% endif %}
+	</div><!-- /.medium-7.columns -->
+
+
+	<div class="medium-4 columns t30">
+		<div class="panel radius">
+		<h3>Our Partners</h3>
+		<a href="https://nodecraft.com/r/beyondreality">
+  <img src="{{ site.baseurl }}/img/community-partner.png" style="width:166px;height:47px;border:0;">
+        </a> 
+	</div>
+<div class="border-dotted radius b30">
+<script type="text/javascript" src="http://discord.deliriousdrunkards.com/discord.min.js"></script>
+<script type="text/javascript">
+discordWidget.init({
+  serverId: '76745454464806912',
+  title: 'Beyond Reality',
+  join: true,
+  alphabetical: false,
+  theme: 'light',
+  hideChannels: ['Channel Name 1', 'Channel Name 2'],
+  showAllUsers: true,
+  allUsersDefaultState: true,
+  showNick: false
+});
+discordWidget.render();
+</script>
+
+<div class="discord-widget"></div>
+ 
+</div>
+
+
+<div class="border-dotted radius b30">
+	<p>
+        <a class="twitter-timeline" 
+		data-dnt="true" data-width="1000" data-height="300"
+		href="https://twitter.com/Dominance28" 
+		data-widget-id="647819704925581312"
+		data-chrome="nofooter noborders transparent" data-tweet-limit="2">I am tweeting (@Dominance28)</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </p>
+</div>
+	</div><!-- /.medium-5.columns -->
+</div><!-- /.row -->
