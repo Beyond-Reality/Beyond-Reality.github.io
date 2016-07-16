@@ -23,7 +23,7 @@
 }
 
 #sidebar-wrapper {
-    position: fluid;
+    position: relative;
     left: 250px;
     width: 0;
     height: 100%;
