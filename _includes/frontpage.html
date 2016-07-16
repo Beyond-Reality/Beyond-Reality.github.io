@@ -1,4 +1,3 @@
-<div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -22,7 +21,6 @@
 
    </article>
   {% endfor %}
-</div>
 
 {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
