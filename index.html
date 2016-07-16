@@ -32,12 +32,18 @@ bigimg:
 
         <!-- Sidebar -->
 <div id="sidebar-wrapper">
-    <a href="https://nodecraft.com/r/beyondreality">
-    <img src="{{ site.baseurl }}/img/community-partner.png" style="width:166px;height:47px;border:0;">
-    </a> 
-
-	<script type="text/javascript" src="http://discord.deliriousdrunkards.com/discord.min.js"></script>
-	<script type="text/javascript">
+ <ul class="sidebar-nav">
+ 
+	<li class="sidebar-brand">
+                    <a href="#">
+                        <a href="https://nodecraft.com/r/beyondreality">
+						<img src="{{ site.baseurl }}/img/community-partner.png" style="width:166px;height:47px;border:0;">
+					</a> 
+                    </a>
+    </li>
+	<li>
+	 <script type="text/javascript" src="http://discord.deliriousdrunkards.com/discord.min.js"></script>
+	 <script type="text/javascript">
 		discordWidget.init({
 		serverId: '76745454464806912',
 		title: 'Beyond Reality',
@@ -50,10 +56,11 @@ bigimg:
 		showNick: false
 		});
 		discordWidget.render();
-	</script>
+	 </script>
 
-	<div class="discord-widget"></div>
-
+	 <div class="discord-widget"></div>
+	</li>
+	<li>
 	<p>
 		<a class="twitter-timeline" 
 		data-dnt="true" data-width="1000" data-height="300"
@@ -62,6 +69,8 @@ bigimg:
 		data-chrome="nofooter noborders transparent" data-tweet-limit="2">I am tweeting (@Dominance28)</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</p>
+	</li>
+ </ul>
 </div>
         <!-- /#sidebar-wrapper -->
 
